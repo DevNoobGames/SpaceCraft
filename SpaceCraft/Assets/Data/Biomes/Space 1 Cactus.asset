@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11456895e9e2dba4689de926ffbc214b, type: 3}
+  m_Name: Space 1 Cactus
+  m_EditorClassIdentifier: 
+  biomeName: Space 1 Cactus
+  offset: 12345
+  scale: 0.17
+  terrainHeight: 45
+  terrainScale: 0.3
+  surfaceBlock: 18
+  subSurfaceBlock: 15
+  majorFloraIndex: 3
+  majorFloraZoneScale: 1.3
+  majorFloraZoneThreshold: 0.462
+  majorFloraPlacementScale: 90
+  majorFloraPlacementThreshold: 0.8
+  placeMajorFlora: 1
+  maxHeight: 11
+  minHeight: 5
+  lodes:
+  - nodeName: Dirt
+    blockID: 5
+    minHeight: 1
+    maxHeight: 255
+    scale: 0.1
+    threshold: 0.5
+    noiseOffset: 0
+  - nodeName: Sand
+    blockID: 4
+    minHeight: 30
+    maxHeight: 60
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 500
+  - nodeName: Caves
+    blockID: 0
+    minHeight: 5
+    maxHeight: 60
+    scale: 0.1
+    threshold: 0.55
+    noiseOffset: 23523
